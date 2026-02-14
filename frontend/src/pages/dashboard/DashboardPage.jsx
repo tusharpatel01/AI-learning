@@ -8,7 +8,7 @@ import {
   TrendingUp,
   Clock,
 } from "lucide-react";
-import Spinner from "../../components/common/Spinner";
+import Spinner from "../../components/common/Spinner.jsx";
 
 const DashboardPage = () => {
   const [dashboardData, setDashboardData] = useState(null);
