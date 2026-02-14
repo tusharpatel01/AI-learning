@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Spinner from "../../components/common/spinner";
 import progressService from "../../services/progressService";
 import toast from "react-hot-toast";
 import {
@@ -9,6 +8,7 @@ import {
   TrendingUp,
   Clock,
 } from "lucide-react";
+import Spinner from "../../components/common/Spinner";
 
 const DashboardPage = () => {
   const [dashboardData, setDashboardData] = useState(null);

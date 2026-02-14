@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Plus, FileText, X, Upload, Trash2 } from "lucide-react";
 import toast from "react-hot-toast";
 import documentService from "../../services/documentService";
-import Spinner from "../../components/common/spinner";
 import Button from "../../components/common/Button";
 import DocumentCard from "../../components/document/DocumentCard";
+import Spinner from "../../components/common/Spinner";
 
 const DocumentListPage = () => {
   const [documents, setDocuments] = useState([]);

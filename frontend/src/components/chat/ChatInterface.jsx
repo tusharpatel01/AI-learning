@@ -3,8 +3,8 @@ import { Send, MessageSquare, Sparkles } from "lucide-react";
 import { useParams } from "react-router-dom";
 import aiService from "../../services/aiService";
 import { useAuth } from "../../context/AuthContext";
-import Spinner from "../../components/common/spinner";
 import MarkdownRenderer from "../../components/common/MarkdownRendered";
+import Spinner from "../common/Spinner";
 
 const ChatInterface = () => {
   const { id: documentId } = useParams();
