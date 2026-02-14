@@ -13,9 +13,9 @@ import moment from "moment";
 
 import flashcardService from "../../services/flashCardsService";
 import aiService from "../../services/aiService";
-import Spinner from "../../components/common/Spinner";
 import Modal from "../../components/common/Modal";
 import Flashcard from "./Flashcard";
+import Spinner from "../common/Spinner";
 
 const FlashcardManager = ({ documentId }) => {
   const [flashcardSets, setFlashcardSets] = useState([]);
