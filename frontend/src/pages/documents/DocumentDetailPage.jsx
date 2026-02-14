@@ -7,7 +7,7 @@ import PageHeader from "../../components/common/PageHeader";
 import ChatInterface from "../../components/chat/ChatInterface";
 import AiActions from "../../components/ai/AiActions";
 import FlashcardsManager from "../../components/flashcards/FlashcardsManager";
-import Spinner from "../../components/common/Spinner";
+import Spinner from "../../components/common/Spinner.jsx";
 
 const DocumentDetailPage = () => {
   const { id } = useParams();
@@ -43,7 +43,7 @@ const DocumentDetailPage = () => {
     }
 
     const baseUrl =
-      process.env.REACT_APP_API_URL || "http://localhost:8000";
+     "http://localhost:8000";
 
     return `${baseUrl}${filePath.startsWith("/") ? "" : "/"}${filePath}`;
   };
