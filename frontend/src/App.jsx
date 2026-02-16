@@ -24,7 +24,7 @@ const App = () => {
 
   if (loading) {
     return (
-      <div className="">
+      <div >
         <p>Loading...</p>
       </div>
     );
