@@ -1,6 +1,6 @@
 // frontend/ai-learning-assistant/src/utils/apiPaths.js
 
-export const BASE_URL = "http://localhost:8000";
+export const BASE_URL = "https://ai-learning-d5b0.onrender.com";
 
 export const API_PATHS = {
   AUTH: {
